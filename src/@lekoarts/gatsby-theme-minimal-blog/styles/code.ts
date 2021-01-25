@@ -227,8 +227,8 @@ const code = {
     transition: 'background 0.5s ease',
   },
   ".code-copy-button:hover": {
+    backgroundColor: 'rgba(255,255,255,0.1)',
     color: 'rgba(255,255,255,0.25)',
-    backgroundColor: 'rgba(255,255,255,0.06)',
   }
 }
 

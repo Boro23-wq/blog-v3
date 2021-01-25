@@ -4,6 +4,7 @@ import { useState } from "react"
 
 import copyToClipboard from "../utils/copy-to-clipboard"
 import { visuallyHidden } from "../styles/utils"
+import { FaBeer } from 'react-icons/fa';
 
 const delay = (duration: number) => new Promise((resolve) => setTimeout(resolve, duration))
 
