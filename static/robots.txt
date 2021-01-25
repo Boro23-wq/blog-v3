@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://boro-blogs.netlify.app/sitemap.xml
