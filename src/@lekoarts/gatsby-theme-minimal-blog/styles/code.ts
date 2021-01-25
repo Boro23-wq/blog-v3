@@ -13,7 +13,7 @@ const code = {
   },
   ".prism-code": {
     fontSize: [1, 1, 2],
-    padding: `2rem 1rem 1rem 1rem`,
+    padding: `2.55rem 1rem 1rem 1rem`,
     webkitOverflowScrolling: `touch`,
     backgroundColor: `transparent`,
     minWidth: `100%`,
@@ -218,17 +218,17 @@ const code = {
     right: [0, 0, 0, -10],
   },
   ".code-copy-button": {
-    borderRadius: 4,
     background: 'none',
     color: 'rgba(255,255,255,0.25)',
-    backgroundColor: 'rgba(255,255,255,0.04)',
+    backgroundColor: 'rgba(255,255,255,0.0275)',
+    borderRadius: 4,
     right: [0, 0, 0, 10],
     top: [0, 0, 0, 10],
-    transition: 'background 0.3s ease',
+    transition: 'background 0.5s ease',
   },
   ".code-copy-button:hover": {
     color: 'rgba(255,255,255,0.25)',
-    backgroundColor: 'rgba(255,255,255,0.065)',
+    backgroundColor: 'rgba(255,255,255,0.06)',
   }
 }
 
