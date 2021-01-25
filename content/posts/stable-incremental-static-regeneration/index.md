@@ -6,8 +6,6 @@ tags:
 banner: './images/cover.png'
 ---
 
-![gif](./images/gif.gif)
-
 Next.js has introduced a very handy feature called Incremental Static Re-generation from versions 9.5 and above. It has been five months now since v9.5, nonetheless, I thought the feature was really cool and I had to try it out.
 
 ## What is Incremental Static Re-generation?
@@ -38,7 +36,9 @@ To enable this feature, one has to configure the interval for re-generation in t
 
 The following application demonstrates the feature of Incremental Static Re-generation. It re-generates a static page that shows the count of various GitHub reactions of a Github issue available [here.](https://reactions-demo.now.sh/)
 
-<!-- <GifVideo src="./images/gif.gif"/> -->
+<!-- GIF GOES HERE -->
+
+[gif](./images/gif.gif)
 
 The application above is demonstrated in the Next.js blog available [here](https://nextjs.org/blog/next-9-5#stable-incremental-static-regeneration). Please try it out on your own.
 

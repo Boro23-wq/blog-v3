@@ -282,6 +282,8 @@ export default ({ song }) => (
 
 The rendered view of the above file is demonstrated below:
 
+<!-- GIF GOES HERE -->
+
 ![app-screen-2](./images/app-2.gif)
 
 ## Conclusion
