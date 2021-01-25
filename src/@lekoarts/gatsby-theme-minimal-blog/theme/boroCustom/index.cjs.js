@@ -1,5 +1,3 @@
-'use strict';
-
 // Original: https://github.com/sdras/night-owl-vscode-theme
 // Converted automatically using ./tools/themeFromVsCode
 var theme = {

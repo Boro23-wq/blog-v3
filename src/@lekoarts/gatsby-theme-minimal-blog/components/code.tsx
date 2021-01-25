@@ -2,7 +2,7 @@
 import React from "react"
 import Highlight, { defaultProps } from "prism-react-renderer"
 import loadable from "@loadable/component"
-import theme from "../theme/customTheme"
+import theme from "../theme/boroCustom/index.cjs"
 
 
 import Copy from "./copy"
