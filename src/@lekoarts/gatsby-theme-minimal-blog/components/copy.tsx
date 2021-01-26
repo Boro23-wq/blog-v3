@@ -4,7 +4,7 @@ import { useState } from "react"
 
 import copyToClipboard from "../utils/copy-to-clipboard"
 import { visuallyHidden } from "../styles/utils"
-import { FaBeer } from 'react-icons/fa';
+import { FaClone } from 'react-icons/fa';
 
 const delay = (duration: number) => new Promise((resolve) => setTimeout(resolve, duration))
 
@@ -42,6 +42,7 @@ const Copy = ({ content, duration = 5000, fileName = ``, trim = false }: CopyPro
       <span sx={{ ...visuallyHidden }} aria-roledescription="status">
         {label}
       </span>
+      <FaClone style={{marginLeft: '5px'}}/>
     </button>
   )
 }

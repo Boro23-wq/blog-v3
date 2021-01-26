@@ -22,15 +22,18 @@
     "gatsby-plugin-manifest": "^2.5.2",
     "gatsby-plugin-netlify": "^2.4.0",
     "gatsby-plugin-offline": "^3.3.3",
+    "gatsby-plugin-sharp": "^2.13.1",
     "gatsby-plugin-sitemap": "^2.5.1",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.13",
     "gatsby-remark-copy-linked-files": "^2.9.0",
     "gatsby-remark-images": "^3.10.0",
+    "gatsby-remark-images-medium-zoom": "^1.7.0",
     "gatsby-remark-interactive-gifs": "^1.0.4",
     "gatsby-transformer-remark": "^2.15.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-icons": "^4.1.0",
     "react-intersection-observer": "^8.31.0"
   },
   "devDependencies": {
