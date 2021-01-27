@@ -3,7 +3,7 @@ title: Two factor authentication (2FA) using Speakeasy, Node and Express.
 date: 2020-11-14
 tags:
   - Development
-banner: './images/cover.png'
+# banner: './images/cover.png'
 ---
 
 ## Introduction

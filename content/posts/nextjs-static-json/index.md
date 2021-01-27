@@ -3,7 +3,7 @@ title: Next.js (useStaticProps, useStaticPaths) + Static JSON Data.
 date: 2020-12-12
 tags:
   - Next.js
-banner: './images/cover.png'
+# banner: './images/cover.png'
 ---
 
 I have been trying to learn Next.js for a few weeks now. I have read a few blogs and have found Next.js very intriguing in terms of its added functionality such as server-side rendering and generating static websites. To be honest, I have already started liking it enough and wanted to build a quick application using Next.js' data fetching techniques. Shoutout to [Lee Robinson](https://leerob.io/) for his amazing [blog](https://leerob.io/blog/next-prisma) on incorporating Next.js with Prisma.

@@ -3,7 +3,7 @@ title: Redux/Context API for state management in React.
 date: 2021-01-09
 tags:
   - State Management
-banner: './images/cover.png'
+# banner: './images/cover.png'
 ---
 
 During the process of developing React applications, I've had times when I had to decide if I should use Redux or the fairly new hook (available from React's version 16.3) called ContextAPI for managing state in my application. For the most part, I have used Redux, but I feel Context API is a little less daunting to me. Anyway, let me explain you through to manifest if either one's actually better.

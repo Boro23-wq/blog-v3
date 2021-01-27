@@ -3,7 +3,7 @@ title: Accessibility and SEO optimizations in Next.js application (Lighthouse).
 date: 2021-01-04
 tags:
   - SEO
-banner: './images/cover.png'
+# banner: './images/cover.png'
 ---
 
 Today, we have a fairly simple task of optimizing the SEO of an even fairly simple Next.js app. We will produce reports from lighthouse before and after the optimizations to make sure we understand the optimizations in each step of the way.
