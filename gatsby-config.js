@@ -9,7 +9,7 @@ module.exports = {
     siteTitle: `Boro`,
     siteTitleAlt: `Boro | Blog`,
     siteHeadline: `Technical blog on frontend technologies, backend technologies, and development in general.`,
-    siteUrl: `https://blogbyboro.netlify.app/`,
+    siteUrl: `https://boro-blogs.netlify.app/`,
     siteDescription: `Technical blog on Full-stack technologies, development, and best practices in general.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,

@@ -4,7 +4,7 @@ date: 2021-01-06
 tags:
   - Feature
 description: Next.js has introduced a very handy feature called Incremental Static Re-generation from versions 9.5 and above. Know what the fuss is about!
-# banner: './images/cover.png'
+banner: './images/cover.png'
 ---
 
 Next.js has introduced a very handy feature called Incremental Static Re-generation from versions 9.5 and above. It has been five months now since v9.5, nonetheless, I thought the feature was really cool and I had to try it out.

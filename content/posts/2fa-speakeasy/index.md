@@ -4,7 +4,7 @@ date: 2020-11-14
 tags:
   - Development
 description: Know how to configure a two factor authentication for your application using Speakeasy!
-# banner: './images/cover.png'
+banner: './images/cover.png'
 ---
 
 ## Introduction
