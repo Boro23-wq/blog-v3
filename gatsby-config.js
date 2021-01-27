@@ -40,7 +40,6 @@ module.exports = {
           },
           `gatsby-remark-copy-images`,
           'gatsby-remark-copy-relative-linked-files',
-          `gatsby-plugin-sharp`,
         ],
       },
     },
@@ -101,6 +100,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
     shouldAnalyseBundle && {
