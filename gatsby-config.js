@@ -9,7 +9,7 @@ module.exports = {
     siteTitle: `Boro`,
     siteTitleAlt: `Boro | Blog`,
     siteHeadline: `Technical blog on frontend technologies, backend technologies, and development in general.`,
-    siteUrl: `https://boro-blogs.netlify.app`,
+    siteUrl: `https://blogbyboro.netlify.app`,
     siteDescription: `Technical blog on Full-stack technologies, development, and best practices in general.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
@@ -21,13 +21,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          {
-            resolve: `gatsby-remark-copy-linked-files`,
-            options: {
-              destinationDir: `public/static/others`,
-              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
-            },
-          },
+          `gatsby-remark-copy-linked-files`,
           {
             resolve: `gatsby-remark-images`,
             options: {
