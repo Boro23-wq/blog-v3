@@ -38,7 +38,7 @@ The following application demonstrates the feature of Incremental Static Re-gene
 
 <!-- GIF GOES HERE -->
 
-![gif](./images/app.gif)
+<img style="display: block; margin: auto;" src="app.gif"/>
 
 The application above is demonstrated in the Next.js blog available [here](https://nextjs.org/blog/next-9-5#stable-incremental-static-regeneration). Please try it out on your own.
 

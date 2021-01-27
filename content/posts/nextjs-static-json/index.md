@@ -282,9 +282,11 @@ export default ({ song }) => (
 
 The rendered view of the above file is demonstrated below:
 
+<!-- [Click here to watch the rendered view of the above file.](https://raw.githubusercontent.com/Boro23-wq/blog-v3/master/content/posts/nextjs-static-json/images/app-2.gif) -->
+
 <!-- GIF GOES HERE -->
 
-![app-screen-2](./images/app-2.gif)
+<img style="display: block; margin: auto; width: 100%" src="app-2.gif"/>
 
 ## Conclusion
 
