@@ -4,7 +4,7 @@ date: 2021-01-14
 tags:
   - Headless CMS
 description: A simple Next.js application that demonstrates fetching data hosted on a Headless CMS called Strapi through an API.
-banner: './images/cover.png'
+# banner: './images/cover.png'
 ---
 
 A headless content management system (CMS) like Strapi is very handy in terms of managing digital content. You have a GUI exposed to register the Content-Type and the content itself through a user-friendly and clean interface. If you are a blogger or want to spin up a website real quick you might as well want to source all of your blog/website's content from a CMS. Basically, CMS like Strapi exposes an API that can be used to query the content using frontend technologies like React and Next.js.

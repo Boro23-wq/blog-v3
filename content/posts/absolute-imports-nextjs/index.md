@@ -5,7 +5,7 @@ tags:
   - Next.js
   - Feature
 description: Absolute imports and module path alias helps us avoid writing the exact import path of a deeply-rooted component.
-banner: './images/cover.png'
+# banner: './images/cover.png'
 ---
 
 Absolute imports are indeed a game-changer, atleast for me. At times when you have different directories or files to import from, you'd perhaps know the challenge of trying to remember every folder structure so you don't mess up while importing content.

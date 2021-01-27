@@ -4,7 +4,7 @@ date: 2021-01-04
 tags:
   - SEO
 description: An application demonstrating simple tweaks to boost SEO and Accessibility the right way!
-banner: './images/cover.png'
+# banner: './images/cover.png'
 ---
 
 Today, we have a fairly simple task of optimizing the SEO of an even fairly simple Next.js app. We will produce reports from lighthouse before and after the optimizations to make sure we understand the optimizations in each step of the way.
