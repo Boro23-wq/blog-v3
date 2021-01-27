@@ -287,7 +287,7 @@ The rendered view of the above file is demonstrated below:
 
 <!-- GIF GOES HERE -->
 
-<img style="display: block; margin: auto; width: 100%" src="https://raw.githubusercontent.com/Boro23-wq/blog-v3/master/content/posts/nextjs-static-json/app-2.gif"/>
+<img style="display: block; margin: auto; width: 100%" src="https://raw.githubusercontent.com/Boro23-wq/blog-v3/master/content/posts/nextjs-static-json/gif/app-2.gif"/>
 
 ## Conclusion
 
