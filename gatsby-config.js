@@ -16,6 +16,7 @@ module.exports = {
     author: `@boro`,
   },
   plugins: [
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -100,7 +101,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
     shouldAnalyseBundle && {
