@@ -3,6 +3,7 @@ title: Data Fetching (useStaticProps) in Next.js using Headless CMS Strapi.
 date: 2021-01-14
 tags:
   - Headless CMS
+description: A simple Next.js application that demonstrates fetching data hosted on a Headless CMS called Strapi through an API.
 # banner: './images/cover.png'
 ---
 

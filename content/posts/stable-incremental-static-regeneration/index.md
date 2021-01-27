@@ -3,6 +3,7 @@ title: Stable Incremental Static Re-generation (Next.js 9.5+).
 date: 2021-01-06
 tags:
   - Feature
+description: Next.js has introduced a very handy feature called Incremental Static Re-generation from versions 9.5 and above. Know what the fuss is about!
 # banner: './images/cover.png'
 ---
 
@@ -38,9 +39,9 @@ The following application demonstrates the feature of Incremental Static Re-gene
 
 <!-- GIF GOES HERE -->
 
-[Click here to launch a demo of the application.](https://raw.githubusercontent.com/Boro23-wq/blog-v3/master/content/posts/stable-incremental-static-regeneration/app.gif)
+<!-- [Click here to launch a demo of the application.](https://raw.githubusercontent.com/Boro23-wq/blog-v3/master/content/posts/stable-incremental-static-regeneration/app.gif) -->
 
-<!-- <img style="display: block; margin: auto;" src="app.gif"/> -->
+<img style="display: block; margin: auto;" src="https://raw.githubusercontent.com/Boro23-wq/blog-v3/master/content/posts/stable-incremental-static-regeneration/app.gif" alt="application-demo"/>
 
 The application above is demonstrated in the Next.js blog available [here](https://nextjs.org/blog/next-9-5#stable-incremental-static-regeneration). Please try it out on your own.
 

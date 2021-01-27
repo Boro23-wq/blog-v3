@@ -4,6 +4,7 @@ date: 2021-01-05
 tags:
   - Next.js
   - Feature
+description: SWR or stale-while-revalidate helps developers to immediately load cached data and ensure freshness of the data by updating the cached content later.
 # banner: './images/cover.png'
 ---
 

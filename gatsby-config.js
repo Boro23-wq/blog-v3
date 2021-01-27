@@ -17,6 +17,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

@@ -3,6 +3,7 @@ title: Built-in automatic image optimization in Next.js.
 date: 2020-12-07
 tags:
   - Next.js
+description: Next.js has introduced Automatic Image Optimization in versions 10.0.0 and above, using a built-in Image Component.
 # banner: './images/cover.png'
 ---
 
