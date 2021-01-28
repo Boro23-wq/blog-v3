@@ -193,7 +193,7 @@ Next.js can help us create pages with dynamic routes. For example, if we want to
 
 Now let us create a file `[id].js` inside the folder called songs. The file will have the following content:
 
-```js {14-20}
+```js {16-22}
 // pages/songs/[id].js
 
 import { playlist } from '../../data';
@@ -283,11 +283,9 @@ export default ({ song }) => (
 
 The rendered view of the above file is demonstrated below:
 
-<!-- [Click here to watch the rendered view of the above file.](https://raw.githubusercontent.com/Boro23-wq/blog-v3/master/content/posts/nextjs-static-json/app-2.gif) -->
-
 <!-- GIF GOES HERE -->
 
-<img style="display: block; margin: auto; width: 100%" src="https://raw.githubusercontent.com/Boro23-wq/blog-v3/master/content/posts/nextjs-static-json/gif/app-2.gif"/>
+<img style="display: block; margin: auto; width: 100%" src="./gif/app-2.gif" alt="application-demo"/>
 
 ## Conclusion
 

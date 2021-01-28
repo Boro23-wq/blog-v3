@@ -16,13 +16,39 @@ module.exports = {
     author: `@boro`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+          `gatsby-remark-copy-linked-files`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 960,
+              quality: 90,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 960,
+              quality: 90,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
+      },
+    },
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-copy-linked-files`,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -43,6 +69,7 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        mdx: false,
         navigation: [
           {
             title: `Blog`,
