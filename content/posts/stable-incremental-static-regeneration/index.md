@@ -29,9 +29,7 @@ Here in the diagram, we can see User-1 requesting data from an endpoint (/post/1
 
 User-2 when making the request to the same endpoint isn't served with the stale data, since the re-generated and updated data is now available.
 
-To enable this feature, one has to configure the interval for re-generation in the `getStaticProps` function of the particular page.
-
-- Incremental static re-generation gives you offloads database and backend load while allowing dynamic content.
+To enable this feature, one has to configure the interval for re-generation in the `getStaticProps` function of the particular page. Incremental static re-generation offloads database and backend load while allowing dynamic content.
 
 ## An Example: Reaction app
 

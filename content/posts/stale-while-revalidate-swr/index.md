@@ -48,7 +48,7 @@ This is how we implement an SWR. useSWR hook accepts two parameters. Firstly it 
 
 ### An Example
 
-```js {22}
+```js {21}
 // fetchingdata/pages/index.js
 
 // importing libraries
