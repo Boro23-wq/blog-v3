@@ -6,8 +6,9 @@ tags:
   - Webpack
   - Feature
 description: Module federation allows sharing of modules/builds between applications at runtime.
-# banner: './images/banner.png'
 ---
+
+![banner](./images/banner.png)
 
 ## What is Module Federation?
 
@@ -294,7 +295,8 @@ const Home = () => (
       <title>Create Next App</title>
       <link rel='icon' href='/favicon.ico' />
     </Head>
-    <main>ß
+    <main>
+      ß
       <Header />
       <h1 className='title'>
         I'm not <a href='https://nextjs.org'>Home!</a>
@@ -305,13 +307,16 @@ const Home = () => (
 );
 ```
 
-In the index file of our remote app, we now import the Header component and render it within the second application. You now need to run both the development servers. There you go you now have a Next.js application (home) that exposes a consumable component which is then consumed by the second Next.js application (remote).
+In the index file of our remote app, we now import the Header component and render it within the second application. You now need to run both the development servers and there you go you now have a Next.js application (home) that exposes a consumable component which is then consumed by the second Next.js application (remote). I've put up a snapshot of both the applications below for you to demonstrate what we will have after following all the steps above.
+
+![application demo](./images/mod-fed-2.png)
 
 Any changes to the home application will now reflect it back on the remote application. How cool is that? That is Module Federation for you.
 
 ### Conclusion
 
-Module Federation has some great features like avoiding dependency duplication (built-in redundancy). Since remote builds are dependent on hosts, if the host does not ship dependencies that the remote requires, the remote can download the missing dependencies on its own. Module Federation being started out as a Javascript architecture was moved on to support as a Webpack plugin. It certainly changes the scene of building scalable applications using micro-frontends. There are tons of in-depth blogs about Module Federation. If you are rather interested on watching a video I would suggest you to go ahead and watch [Jack Herrington's](https://www.youtube.com/channel/UC6vRUjYqDuoUsYsku86Lrsw) Youtube on [Federated Modules in Webpack 5.](https://www.youtube.com/watch?v=D3XYAx30CNc) Additionaly, if you want to read in-depth about Module Federation I would highly recommend you to visit the links below.
+Module Federation has some great features like avoiding dependency duplication (built-in redundancy). Since remote builds are dependent on hosts, if the host does not ship dependencies that the remote requires, the remote can download the missing dependencies on its own. Module Federation being started out as a Javascript architecture was moved on to support as a Webpack plugin. It certainly changes the scene of building scalable applications using micro-frontends. There are tons of in-depth blogs about Module Federation. If you are rather interested on watching a video I would suggest you to go ahead and watch [Jack Herrington's](https://www.youtube.com/channel/UC6vRUjYqDuoUsYsku86Lrsw) Youtube on Federated Modules in Webpack 5. The link will be attached below. Additionaly, if you want to read in-depth about Module Federation I would highly recommend you to visit the links below.
 
 - [Module Federation - Blog by Zack Jackson (Creator of Module Federation)](https://indepth.dev/posts/1173/webpack-5-module-federation-a-game-changer-in-javascript-architecture)
 - [Module Federation Concepts - Webpack.js](https://webpack.js.org/concepts/module-federation/)
+- [Federated Modules - Jack Herrington](https://www.youtube.com/watch?v=D3XYAx30CNc)
