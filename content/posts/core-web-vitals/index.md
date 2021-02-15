@@ -1,6 +1,6 @@
 ---
-title: Core Web Vitals can remediate your websites bad user-experience.
-date: 2021-02-13
+title: Core Web Vitals can remediate your website's bad user experience.
+date: 2021-02-15
 tags:
   - Development
   - User Experience
