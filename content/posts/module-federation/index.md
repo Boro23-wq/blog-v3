@@ -296,7 +296,6 @@ const Home = () => (
       <link rel='icon' href='/favicon.ico' />
     </Head>
     <main>
-      ß
       <Header />
       <h1 className='title'>
         I'm not <a href='https://nextjs.org'>Home!</a>
