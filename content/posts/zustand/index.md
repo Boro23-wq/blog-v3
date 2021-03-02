@@ -8,6 +8,8 @@ description: Zustand is a small, fast and scaleable state-management solution fo
 # banner: './images/cover.png'
 ---
 
+![banner](./images/banner.png)
+
 [Zustand](https://github.com/pmndrs/zustand) is a pretty neat state-management tool. When I say state-management, you might as well want it to be compared with Redux or Context. But, this blog wouldn't be the typical rundown of pros and cons and comparing technologies as every technology has its own pros and cons. Instead, we are going to have a look at how Zustand makes it easy to get started with handling state on your applications.
 
 By any chance, if you are looking for a top-hole definition of Zustand, here it is:
